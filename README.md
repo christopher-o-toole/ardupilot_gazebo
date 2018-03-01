@@ -78,7 +78,8 @@ On 2nd Termianal(Launch Gazebo with demo Rover model)
 gazebo --verbose worlds/ (Please Add if there is one.)
 
 ````
-COPTER
+
+On 2nd Termianal(Launch Gazebo with demo Rover model)
 ````
 On 1st Terminal(Launch Ardupilot SITL)
 sim_vehicle.py -v ArduCopter -f gazebo-iris  -m --mav10 --map --console -I0
@@ -86,7 +87,10 @@ sim_vehicle.py -v ArduCopter -f gazebo-iris  -m --mav10 --map --console -I0
 On 2nd Terminal(Launch Gazebo with demo 3DR Iris model)
 gazebo --verbose worlds/iris_irlock_demo.world
 ````
-PLANE
+
+##### COPTER
+
+On 1st Terminal(Launch Ardupilot SITL)
 ````
 On 1st Terminal(Launch Ardupilot SITL)
 sim_vehicle.py -v ArduPlane -f gazebo-zephyr  -m --mav10 --map --console -I0

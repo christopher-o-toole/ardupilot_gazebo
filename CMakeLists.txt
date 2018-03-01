@@ -28,7 +28,6 @@ include_directories(
         )
 
 link_libraries(
-        ${CMAKE_CURRENT_BINARY_DIR}
         ${GAZEBO_LIBRARIES}
         )
 
